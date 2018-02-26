@@ -1,0 +1,69 @@
+/* 日期选择器 */
+.modal-mask {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.3;
+  overflow: hidden;
+  z-index: 500;
+  color: #fff;
+}
+.datepicker {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  z-index: 501;
+}
+.datepicker-header {
+  display: flex;
+  height: 80rpx;
+  background-color: #e9e9e9;
+  color: #2f80f2;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 28rpx;
+}
+.datepicker-header .left {
+  height: 100%;
+  margin-left: 30rpx;
+  display: flex;
+  align-items: center;
+}
+.datepicker-header .right {
+  margin-right: 40rpx;
+}
+.datetype-toggle {
+  background: #fff;
+  border: 1rpx solid #2f80f2;
+  display: flex;
+  margin-right: 50rpx;
+}
+.datetype-item {
+  width: 80rpx;
+  height: 50rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.datetype-select {
+  background: #2f80f2;
+  color: #fff;
+}
+.datepicker-content {
+  height: 100%;
+}
+picker-view {
+  width: 100%; 
+  height: 480rpx;
+}
+picker-view-column {
+  text-align:center;
+  line-height: 80rpx;
+  color: #222;
+  font-size: 28rpx;
+}

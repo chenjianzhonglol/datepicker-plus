@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view>
+  <button bindtap='showDatePickerPlus'>显示日期选择控件</button>
+  <view>
+    <view>是否显示年份：{{dateInfo.showYear}}</view>
+    <view>日期类型：{{dateInfo.dateType}}</view>
+    <view>日期：{{dateInfo.dateStr}}</view>
+  </view>
+  <datepicker-plus bind:submit='submit' showDatePickerPlus='{{show}}'></datepicker-plus>
+</view>
