@@ -1,6 +1,6 @@
 Page({
   data: {
-    show: true,
+    show: false,
     dateInfo: {},
   },
   submit: function(e) {
