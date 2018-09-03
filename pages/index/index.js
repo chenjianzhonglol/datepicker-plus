@@ -1,7 +1,7 @@
 Page({
   data: {
     show: false,
-    dateInfo: {},
+    dateInfo: {}
   },
   submit: function(e) {
     console.log(e);

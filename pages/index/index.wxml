@@ -6,5 +6,5 @@
     <view>日期类型：{{dateInfo.dateType}}</view>
     <view>日期：{{dateInfo.dateStr}}</view>
   </view>
-  <datepicker-plus bind:submit='submit' showDatePickerPlus='{{show}}'></datepicker-plus>
+  <datepicker-plus bind:submit='submit' showDatePickerPlus='{{show}}' initDate="2018-02-12"></datepicker-plus>
 </view>
