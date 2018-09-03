@@ -9,7 +9,8 @@
     "datepicker-plus": "/datepicker-plus/index"
   }
 }
-3.在.wxml里调用组件<datepicker-plus bind:submit='submit' showDatePickerPlus='{{show}}'></datepicker-plus>
+3.在wxml里调用组件
+<datepicker-plus bind:submit='submit' showDatePickerPlus='{{show}}'></datepicker-plus>
 
 参数：
 showDatePickerPlus：true/false，显示或隐藏组件
